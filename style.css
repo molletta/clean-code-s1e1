@@ -13,7 +13,7 @@
 .eisenhower-matrix img {
   width: 100%;
 }
-.eisenhower-matrix .link-more-inf {
+.link-more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -39,10 +39,12 @@
   margin: 0;
   padding: 0px;
 }
-.task-item, .task-title {
+.task-item,
+.task-title {
   list-style: none;
 }
-input,.button{
+input,
+.button{
   outline: none;
 }
 .button {
