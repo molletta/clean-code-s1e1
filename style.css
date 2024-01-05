@@ -36,14 +36,14 @@
   display: flex;
 }
 .task-content {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .task-item, .task-title {
-  list-style:none;
+  list-style: none;
 }
 input,.button{
-  outline:none;
+  outline: none;
 }
 .button {
   background: none;
@@ -55,7 +55,7 @@ input,.button{
   cursor: pointer;
 }
 .button:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 /* Heading */
 .task-title,
@@ -74,8 +74,8 @@ input[type="text"] {
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
@@ -135,14 +135,14 @@ label[for="new-task"] {
 
 /* Edit Task */
 ul li input[type=text] {
-  display:none
+  display: none
 }
 
 .edit-mode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode label {
-  display:none;
+  display: none;
 }
