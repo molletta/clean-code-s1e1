@@ -10,10 +10,10 @@
   display: block;
   text-align: right;
 }
-.eisenhower-matrix img {
+.eisenhower-matrix__img {
   width: 100%;
 }
-.link-more-inf {
+.eisenhower-matrix__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -22,7 +22,7 @@
     text-align: center;
   }
 }
-.todo-list-form {
+.task-list {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -35,19 +35,19 @@
 .task-row-wrapper {
   display: flex;
 }
-.task-content {
+.task-list__content {
   margin: 0;
   padding: 0px;
 }
 .task-item,
-.task-title {
+.task-list__title {
   list-style: none;
 }
 input,
-.button{
+.btn{
   outline: none;
 }
-.button {
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -56,11 +56,11 @@ input,
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.button:hover {
+.btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
-.task-title,
+.task-list__title,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
